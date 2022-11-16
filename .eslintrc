@@ -5,8 +5,8 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "standard-with-typescript",
-        "prettier"
+        "standard-with-typescript"
+
     ],
     "overrides": [
     ],
@@ -15,7 +15,8 @@
         "sourceType": "module"
     },
     "plugins": [
-        "react"
+        "react",
+        "prettier"
     ],
     "rules": {
         "camelcase": "warn",

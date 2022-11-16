@@ -1,7 +1,12 @@
-import React from 'react';
+import { GlobalStyle } from './styles/global';
 
 export function App() {
-  return <h1>DtMoney</h1>;
+  return (
+    <>
+      <GlobalStyle />
+      <h1>DtMoney</h1>
+    </>
+  );
 }
 
 export default App;
