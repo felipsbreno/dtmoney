@@ -5,6 +5,7 @@ export const Container = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: -10rem;
+
   div {
     background: var(--white);
     padding: 1.5rem 2rem;
@@ -15,6 +16,7 @@ export const Container = styled.div`
       align-items: center;
       justify-content: space-between;
     }
+
     strong {
       display: block;
       margin-top: 1rem;
@@ -22,6 +24,7 @@ export const Container = styled.div`
       line-height: 3rem;
       font-weight: 500;
     }
+
     &.total {
       color: #ffffff;
       background: var(--green);

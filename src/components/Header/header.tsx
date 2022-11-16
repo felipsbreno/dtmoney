@@ -5,7 +5,7 @@ interface HeaderProps {
   onOpenNewTransactionModal: () => void;
 }
 
-export default function Header({ onOpenNewTransactionModal }: HeaderProps) {
+export function Header({ onOpenNewTransactionModal }: HeaderProps) {
   return (
     <Container>
       <Wrapper>
